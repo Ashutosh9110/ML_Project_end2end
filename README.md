@@ -25,4 +25,16 @@ pip install -r requirements.txt
 
 # git branch == To know the name of the branch
 
-git push origin main == 
+# git push origin main == To send changes to the git repository.
+
+
+# git add . >> git commit -m "message" >>  git push origin main == That is how you commit new changes in the repository.
+
+# Build Docker imagex
+
+# docker build -t <image_name>: <tagname>
+
+docker build -t ml-project:latest
+
+# Note: Image name for docker must be in lowercase
+
