@@ -34,7 +34,21 @@ pip install -r requirements.txt
 
 # docker build -t <image_name>: <tagname>
 
-docker build -t ml-project:latest
+docker build -t ml-project:latest .
 
 # Note: Image name for docker must be in lowercase
 
+# To list docker images == docker images
+
+# How to run docker image == run docker image
+
+docker run -p 5000:5000 -e PORT=5000 09605b8ac3ff
+docker run -p 5000:5000 -e PORT=5000 3c33ed04633c
+# -e PORT == Environment varible port. We are choosing it as 5000
+# 09605b8ac3ff == is the image id
+
+```
+To check running container : docker ps
+
+To stop docker container == docker stop (container_id)
+# Container id can be found in the docker ps (only the first four characters are enough to stop the container)
