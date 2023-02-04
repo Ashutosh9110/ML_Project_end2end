@@ -1,2 +1,6 @@
+numpy
 Flask
 gunicorn
+# gunicorn is  a library that is used to run flask applications. It is build for Linux based systems and not for windows
+sklearn
+pandas
