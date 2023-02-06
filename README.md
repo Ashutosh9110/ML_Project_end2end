@@ -52,3 +52,7 @@ To check running container : docker ps
 
 To stop docker container == docker stop (container_id)
 # Container id can be found in the docker ps (only the first four characters are enough to stop the container)
+
+python setup.py install
+
+pip install -e .
